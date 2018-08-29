@@ -1,2 +1,4 @@
 .idea/*
 *.dll
+target/*
+*.dll
