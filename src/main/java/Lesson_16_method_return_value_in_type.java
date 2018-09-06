@@ -1,4 +1,5 @@
-public class lesson14_15_classes_and_objects {
+public class Lesson_16_method_return_value_in_type {
+
     public static void main(String[] args) {
         Person person1 = new Person();
         person1.name = "Вася";
@@ -11,10 +12,14 @@ public class lesson14_15_classes_and_objects {
         person1.sayHello();
         person1.speak();
         person2.speak();
-        int years1 = person1.calculateYearsToRetirement();
+        int year1 = person1.calculateYearsToRetirement();
+        int year2 = person2.calculateYearsToRetirement();
+        System.out.println(person1.name + " до пенсии " + year1);
+        System.out.println(person2.name + " до пенсии " + year2);
+
     }
 }
-//    class Person {
+//  class Person{
 //        String name;
 //        int age;
 //
