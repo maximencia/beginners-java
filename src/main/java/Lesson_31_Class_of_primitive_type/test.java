@@ -1,4 +1,4 @@
-package lesson_31_Class_of_primitive_type;
+package Lesson_31_Class_of_primitive_type;
 
 /**
  * Created by Maxim.Rumyantsev on 19-Sep-18.
