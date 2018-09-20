@@ -10,7 +10,7 @@ public class Lesson_23_BIS_PLUS_GENERATOR {
     public static void main(String[]args) throws FileNotFoundException{
         PrintWriter pw = new PrintWriter(new File("test.csv"));
         StringBuilder sb = new StringBuilder();
-        String[][] records = new String[100][49];
+        String[][] records = new String[120][49];
         String msisdn = "79052284114";
         for (int i=0; i<20; i++) {
             //REC_TYPE 09	Входящий SMS
@@ -21,6 +21,16 @@ public class Lesson_23_BIS_PLUS_GENERATOR {
             record[8] = record[8].substring(0, 4) + i;
             record[9] = record[9].substring(0, 6) + i;
             record[10] = String.valueOf(i);
+
+
+            // заполним соты
+            String REC_TYPE=record[0].replaceFirst("^0+(?!$)", "");
+            record[19] = REC_TYPE + String.valueOf("000020");
+            record[20] = REC_TYPE + String.valueOf("000021");
+            record[21] = REC_TYPE + String.valueOf("000022");
+            record[22] = REC_TYPE + String.valueOf("000023");
+
+
             records[i] = record;
             //System.out.println(records[1][1]);
             for (int j = 0; j < 49; j++) {
@@ -41,6 +51,13 @@ public class Lesson_23_BIS_PLUS_GENERATOR {
             record[9] = String.valueOf(Long.parseLong(record[9].substring(0, 3)) + i-19) + record[9].substring(3);// меняем sourse number
             record[10] = String.valueOf(i);
             record[5] = msisdn;
+
+            // заполним соты
+            String REC_TYPE=record[0].replaceFirst("^0+(?!$)", "");
+            record[19] = REC_TYPE + String.valueOf("000020");
+            record[20] = REC_TYPE + String.valueOf("000021");
+            record[21] = REC_TYPE + String.valueOf("000022");
+            record[22] = REC_TYPE + String.valueOf("000023");
 
             records[i] = record;
             //System.out.println(records[1][1]);
@@ -64,6 +81,14 @@ public class Lesson_23_BIS_PLUS_GENERATOR {
             record[10] = String.valueOf(i);
             record[6] = msisdn; //csv.type.02 = TRAFFIC_TYPE: 1,REC_TYPE: 0, IMSI_A: 4, MSISDN: 6,  DIALED: 5,  START_TIME: 7, DURATION: 8, SUCCESS:9, IMEI_A: 13, MCC_MNC: 37, CIRCUIT_IN: 30, CIRCUIT_OUT: 31,  A_AREA: 19, A_CELL: 20, B_AREA: 21, B_CELL: 22, CALL_ID: 1, A_FORWARD:26
 
+            // заполним соты
+            String REC_TYPE=record[0].replaceFirst("^0+(?!$)", "");
+            record[19] = REC_TYPE + String.valueOf("000020");
+            record[20] = REC_TYPE + String.valueOf("000021");
+            record[21] = REC_TYPE + String.valueOf("000022");
+            record[22] = REC_TYPE + String.valueOf("000023");
+
+
 
             records[i] = record;
             //System.out.println(records[1][1]);
@@ -86,6 +111,13 @@ public class Lesson_23_BIS_PLUS_GENERATOR {
             record[10] = String.valueOf(i);
             record[5] = msisdn;
 
+            // заполним соты
+            String REC_TYPE=record[0].replaceFirst("^0+(?!$)", "");
+            record[19] = REC_TYPE + String.valueOf("000020");
+            record[20] = REC_TYPE + String.valueOf("000021");
+            record[21] = REC_TYPE + String.valueOf("000022");
+            record[22] = REC_TYPE + String.valueOf("000023");
+
             records[i] = record;
             //System.out.println(records[1][1]);
             for (int j = 0; j < 49; j++) {
@@ -107,6 +139,13 @@ public class Lesson_23_BIS_PLUS_GENERATOR {
             record[10] = String.valueOf(i);
             record[5] = msisdn;
 
+            // заполним соты
+            String REC_TYPE=record[0].replaceFirst("^0+(?!$)", "");
+            record[19] = REC_TYPE + String.valueOf("000020");
+            record[20] = REC_TYPE + String.valueOf("000021");
+            record[21] = REC_TYPE + String.valueOf("000022");
+            record[22] = REC_TYPE + String.valueOf("000023");
+
             records[i] = record;
             //System.out.println(records[1][1]);
             for (int j = 0; j < 49; j++) {
@@ -116,7 +155,38 @@ public class Lesson_23_BIS_PLUS_GENERATOR {
             pw.write("\n");
             System.out.print("\n");
         }
-
+//
+//        for (int i=100; i<120; i++) {
+//            //REC_TYPE 85 Интернет траффик
+//            85,1953590131,,,250022203046371,79222448820,,20180819224756,130090,19,,,,3530670907507520,,6,,,,5906,151153927,,,,,,INTERNET,,,26454768,,,,,,,,83.149.61.114,83.149.61.130,,,,,,,,,,url_cdr_PGW_01_23480230.dat,,90061,40029,,,,,,,,,320,
+//
+//                    String[] record = {"23","12397629","","","","79087440631","611","20180802162910","0000","00000015","8","","","","","","","","","","","","","","","","611","","8","","306","0","","","","","","79262000601","MSS01_1.20180424163500CF0342.DAT","","","","","","","","","","",""};
+//            record[1] = String.valueOf(Long.parseLong(record[1]) + i-99);// меняем номер записи
+//            record[5] = String.valueOf(Long.parseLong(record[5].substring(0, 3)) + i-99) + record[5].substring(3);// меняем sourse number
+//            record[7] = String.valueOf(Long.parseLong(record[7]) + (i-99) * 1010101);// меняем дату звонка
+//            record[8] =  String.valueOf(i) ;//record[8].substring(0, 4) + (i-99);
+//            record[9] = String.valueOf(Long.parseLong(record[9].substring(0, 3)) + i-99) + record[9].substring(3);// меняем sourse number
+//            record[10] = String.valueOf(i);
+//            record[5] = msisdn;
+//
+//            // заполним соты
+//            String REC_TYPE=record[0].replaceFirst("^0+(?!$)", "");
+//            record[19] = REC_TYPE + String.valueOf("000020");
+//            record[20] = REC_TYPE + String.valueOf("000021");
+//            record[21] = REC_TYPE + String.valueOf("000022");
+//            record[22] = REC_TYPE + String.valueOf("000023");
+//
+//            records[i] = record;
+//            //System.out.println(records[1][1]);
+//            for (int j = 0; j < 49; j++) {
+//                pw.write(records[i][j] + ",");
+//                System.out.print(records[i][j] + ",");
+//            }
+//
+//
+//            pw.write("\n");
+//            System.out.print("\n");
+//        }
 
 
 
@@ -127,7 +197,7 @@ public class Lesson_23_BIS_PLUS_GENERATOR {
 }
 
 
-//
+//  для 2 и 9 сота должна быть в B_AREA: 21, B_CELL: 22,
 //        csv.type.01 = TRAFFIC_TYPE: 1,REC_TYPE: 0, IMSI_A: 4, MSISDN: 5,  DIALED: 6,  START_TIME: 7, DURATION: 8, SUCCESS:9, IMEI_A: 13, MCC_MNC: 37, CIRCUIT_IN: 30, CIRCUIT_OUT: 31,  A_AREA: 19, A_CELL: 20, B_AREA: 21, B_CELL: 22, CALL_ID: 1, A_FORWARD:26
 //        csv.type.02 = TRAFFIC_TYPE: 1,REC_TYPE: 0, IMSI_A: 4, MSISDN: 6,  DIALED: 5,  START_TIME: 7, DURATION: 8, SUCCESS:9, IMEI_A: 13, MCC_MNC: 37, CIRCUIT_IN: 30, CIRCUIT_OUT: 31,  A_AREA: 19, A_CELL: 20, B_AREA: 21, B_CELL: 22, CALL_ID: 1, A_FORWARD:26
 //        csv.type.03 = TRAFFIC_TYPE: 1,REC_TYPE: 0, IMSI_A: 4, MSISDN: 41,  DIALED: 6,  START_TIME: 7, DURATION: 8, SUCCESS:9, IMEI_A: 13, MCC_MNC: 37, CIRCUIT_IN: 30, CIRCUIT_OUT: 31,  A_AREA: 19, A_CELL: 20, B_AREA: 21, B_CELL: 22, CALL_ID: 1, A_FORWARD:26
