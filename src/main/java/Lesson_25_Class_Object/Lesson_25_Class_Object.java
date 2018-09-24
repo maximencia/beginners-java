@@ -1,16 +1,18 @@
+package Lesson_25_Class_Object;
+
 public class Lesson_25_Class_Object {
     public static void main(String[] args) {
       Human_3 h1 = new Human_3("Max",37);
         System.out.println(h1);
 
        // Привет из конструктора # 3
-       // Human_2@1540e19d
+       // Lesson_21_StaticWord.Human_2@1540e19d
 
         System.out.println(h1.toString());
-        // Human_2@1540e19d
+        // Lesson_21_StaticWord.Human_2@1540e19d
 
         System.out.println(h1.toString1());
-        // Human_2@1540e19d
+        // Lesson_21_StaticWord.Human_2@1540e19d
 
 
     }
@@ -26,7 +28,7 @@ class Human_3{
         System.out.println(description);
     }
     public void getAllField() {
-        System.out.println( "Human_2{" +
+        System.out.println( "Lesson_21_StaticWord.Human_2{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", description=" + description +
@@ -41,7 +43,7 @@ class Human_3{
     }
 
     public String toString1() {
-        return "Human_3{" +
+        return "Lesson_25_Class_Object.Human_3{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';

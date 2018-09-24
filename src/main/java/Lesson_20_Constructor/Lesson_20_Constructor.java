@@ -1,3 +1,5 @@
+package Lesson_20_Constructor;
+
 public class Lesson_20_Constructor {
 
  public static void main(String[] args) {
@@ -24,7 +26,7 @@ public class Lesson_20_Constructor {
             this.age=1;
 
         }
-//        public Human_1(){
+//        public Lesson_20_Constructor.Human_1(){
 //            System.out.println("Привет из конструктора # 1 по умолчанию ");
 //        }
         public Human_1(String name){

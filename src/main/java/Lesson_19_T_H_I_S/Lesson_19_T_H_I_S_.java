@@ -1,3 +1,5 @@
+package Lesson_19_T_H_I_S;
+
 public class Lesson_19_T_H_I_S_ {
     //https://www.youtube.com/watch?v=sPPaDe_5fcQ&index=19&list=PLAma_mKffTOSUkXp26rgdnC0PicnmnDak
     public static void main(String[] args) {

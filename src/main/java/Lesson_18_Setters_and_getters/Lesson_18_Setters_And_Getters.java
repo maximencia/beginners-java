@@ -1,3 +1,5 @@
+package Lesson_18_Setters_and_getters;
+
 public class Lesson_18_Setters_And_Getters {
     public static void main(String[] args) {
         Person_1 person1 = new Person_1();

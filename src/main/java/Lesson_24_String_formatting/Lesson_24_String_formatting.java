@@ -1,3 +1,5 @@
+package Lesson_24_String_formatting;
+
 public class Lesson_24_String_formatting {
     public static void main(String[] args) {
         System.out.print("Hello");

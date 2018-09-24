@@ -1,3 +1,5 @@
+package Lesson_27_FOREST;
+
 import Lesson_27_FOREST.PACKAGE_INSIDE.Inside;
 import Lesson_27_FOREST.Squirell;
 import Lesson_27_FOREST.Tree;

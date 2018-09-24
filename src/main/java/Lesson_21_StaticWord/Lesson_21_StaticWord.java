@@ -1,3 +1,5 @@
+package Lesson_21_StaticWord;
+
 public class Lesson_21_StaticWord {
     public static void main(String[] args) {
         Human_2.gettDescription();
@@ -28,7 +30,7 @@ class Human_2{
         System.out.println(description);
     }
     public void getAllField() {
-        System.out.println( "Human_2{" +
+        System.out.println( "Lesson_21_StaticWord.Human_2{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", description=" + description +
