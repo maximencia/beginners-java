@@ -25,7 +25,7 @@ public class Test {
         dog2.Bark();
 
         // не всегда безопасно   -   Exception in thread "main" java.lang.ClassCastException:
-        // Lesson_32_ascending_and_desending_transformation.Animal cannot be cast to Lesson_32_ascending_and_desending_transformation.Dog
+        // Lesson_32_ascending_and_desending_transformation.Animal cannot be cast to Lesson_32_ascending_and_desending_transformation.Lesson_26_inheritance.Dog
         Animal a_err = new Animal();
         Dog dog_e = (Dog) a_err;
         dog.Bark();

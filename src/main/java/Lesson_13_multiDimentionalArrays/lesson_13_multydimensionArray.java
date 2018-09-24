@@ -1,3 +1,5 @@
+package Lesson_13_multiDimentionalArrays;
+
 public class lesson_13_multydimensionArray {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package Lesson_16_return_value_in_type;
+
 public class Lesson_16_method_return_value_in_type {
 
     public static void main(String[] args) {
@@ -19,20 +21,20 @@ public class Lesson_16_method_return_value_in_type {
 
     }
 }
-//  class Person{
-//        String name;
-//        int age;
-//
-//        void speak() {
-//            System.out.println("Меня  зовут " + name + " мне лет так - " + age);
-//        }
-//
-//        void sayHello() {
-//            System.out.println("Привет");
-//        }
-//
-//        int calculateYearsToRetirement() {
-//            int years = 65 - age;
-//            return years;
-//        }
-//    }
+  class Person{
+        String name;
+        int age;
+
+        void speak() {
+            System.out.println("Меня  зовут " + name + " мне лет так - " + age);
+        }
+
+        void sayHello() {
+            System.out.println("Привет");
+        }
+
+        int calculateYearsToRetirement() {
+            int years = 65 - age;
+            return years;
+        }
+    }

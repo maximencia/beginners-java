@@ -1,4 +1,4 @@
-import Lesson_28_access_modifiers.Person_28;
+package Lesson_28_access_modifiers;
 
 public class Lesson_28_access_modifiers  extends  Person_28{
 

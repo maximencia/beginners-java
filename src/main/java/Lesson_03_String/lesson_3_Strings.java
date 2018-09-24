@@ -1,3 +1,5 @@
+package Lesson_03_String;
+
 /**
  * Created by Maxim.Rumyantsev on 29-Aug-18.
  */

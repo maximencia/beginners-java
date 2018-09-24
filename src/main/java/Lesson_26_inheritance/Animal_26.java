@@ -1,4 +1,6 @@
-public class Animal {
+package Lesson_26_inheritance;
+
+public class Animal_26 {
     String name;
     public void eat(){
         System.out.println("I am eating");

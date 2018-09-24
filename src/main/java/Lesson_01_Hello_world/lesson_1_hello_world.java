@@ -1,3 +1,5 @@
+package Lesson_01_Hello_world;
+
 /**
  * Created by Maxim.Rumyantsev on 29-Aug-18.
  */

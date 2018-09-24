@@ -1,3 +1,5 @@
+package Lesson_11_array;
+
 import java.util.Scanner;
 
 public class lesson_11_array {

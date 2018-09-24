@@ -1,3 +1,5 @@
+package Lesson_10_Switch;
+
 import java.util.Scanner;
 
 class lesson_10_Switch {

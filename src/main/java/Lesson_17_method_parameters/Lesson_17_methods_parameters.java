@@ -1,6 +1,8 @@
+package Lesson_17_method_parameters;
+
 public class Lesson_17_methods_parameters {
 //https://www.youtube.com/watch?v=J8ZLRvOO6vk&index=17&list=PLAma_mKffTOSUkXp26rgdnC0PicnmnDak
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Person person1 = new Person();
         person1.name = "Вася";
         person1.age = 11;

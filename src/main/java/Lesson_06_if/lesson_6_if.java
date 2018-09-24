@@ -1,3 +1,5 @@
+package Lesson_06_if;
+
 /**
  * Created by Maxim.Rumyantsev on 29-Aug-18.
  */

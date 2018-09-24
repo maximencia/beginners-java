@@ -1,3 +1,5 @@
+package Lesson_26_Interfaces;
+
 public class Lesson_26_INTERFACE {
     public static void main(String[] args) {
         System.out.println(" C:\\1\\001_GIT\\beginners-java\\src\\main\\java\\Interfaces\n" +

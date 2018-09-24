@@ -1,8 +1,13 @@
-package Interfaces;
+package Lesson_26_Interfaces.Interfaces;
 
-public class Person  implements Info{
+
+public class Person  implements Info {
 
     public String name;
+
+
+    public Person() {
+    }
 
     public Person(String name) {
         this.name = name;

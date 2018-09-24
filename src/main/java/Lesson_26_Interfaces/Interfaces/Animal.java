@@ -1,4 +1,4 @@
-package Interfaces;
+package Lesson_26_Interfaces.Interfaces;
 
 public class Animal implements Info {
 

@@ -1,3 +1,5 @@
+package Lesson_07_class_scanner;
+
 import java.util.Scanner;
 
 /**

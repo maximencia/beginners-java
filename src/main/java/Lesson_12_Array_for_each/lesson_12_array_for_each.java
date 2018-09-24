@@ -1,3 +1,5 @@
+package Lesson_12_Array_for_each;
+
 public class lesson_12_array_for_each {
 
         public static void main(String[] args) {

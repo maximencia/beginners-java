@@ -1,4 +1,4 @@
-package Interfaces;
+package Lesson_26_Interfaces.Interfaces;
 // https://youtu.be/uCgF5-yCbGA?list=PLAma_mKffTOSUkXp26rgdnC0PicnmnDak
 
 public class Test {

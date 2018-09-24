@@ -14,7 +14,7 @@ public class Test_29 {
         animal1.eat(); // - будет вызвана реализация в потомке
         //animal1.bark();   - не работает
 
-        // Dog dog2 = new Animal(); - не работает
+        // Lesson_26_inheritance.Dog dog2 = new Animal(); - не работает
 
         Animal animal3=new Animal();
         Dog dog3 = new Dog();

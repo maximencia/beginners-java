@@ -18,7 +18,7 @@ public class Test {
         ListofDog.add(new Dog());
         ListofDog.add(new Dog());
 
-        //test(ListofDog); //  Error:(21, 14) java: incompatible types: java.util.List<Lesson_34_WILDCARD_Generic.Dog> cannot be converted to
+        //test(ListofDog); //  Error:(21, 14) java: incompatible types: java.util.List<Lesson_34_WILDCARD_Generic.Lesson_26_inheritance.Dog> cannot be converted to
         // java.util.List<Lesson_34_WILDCARD_Generic.Animal34>
         test2(ListofDog);
 
