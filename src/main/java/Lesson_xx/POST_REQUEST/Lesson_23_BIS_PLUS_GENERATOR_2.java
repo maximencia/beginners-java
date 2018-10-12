@@ -1,8 +1,5 @@
-import java.io.BufferedWriter;
-import java.io.DataOutputStream;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.*;
+package Lesson_xx.POST_REQUEST;
+
 import java.util.Arrays;
 
 public class Lesson_23_BIS_PLUS_GENERATOR_2 {
