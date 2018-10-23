@@ -1,4 +1,4 @@
-package Lesson_xx.POST_REQUEST.InputStreamStepic;
+package Lesson_xx.InputStreamStepic;
 
 import org.apache.commons.io.IOUtils;
 

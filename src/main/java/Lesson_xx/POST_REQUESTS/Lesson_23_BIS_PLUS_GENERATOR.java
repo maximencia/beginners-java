@@ -1,4 +1,4 @@
-package Lesson_xx.POST_REQUEST;
+package Lesson_xx.POST_REQUESTS;
 
 import java.io.File;
         import java.io.FileNotFoundException;

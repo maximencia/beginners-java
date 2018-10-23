@@ -1,4 +1,4 @@
-package Lesson_xx.POST_REQUEST.InputStreamStepic;
+package Lesson_xx.InputStreamStepic;
 
 // Don't edit this file
 

@@ -1,12 +1,9 @@
-package Lesson_xx.POST_REQUEST;
+package Lesson_xx.POST_REQUESTS;
 
         import java.io.*;
         import java.net.HttpURLConnection;
         import java.net.URL;
-        import java.net.URLEncoder;
-        import java.util.Iterator;
-        import java.util.LinkedHashMap;
-        import java.util.Map;
+
         import org.apache.commons.io.IOUtils;
         import org.json.JSONArray;
         import org.json.JSONObject;
