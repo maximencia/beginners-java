@@ -71,7 +71,7 @@ public class Lesson_48_ENUM {
         // порядок ENUM
         Season seas1 =  Season.WINTER;
         System.out.println(seas1.ordinal());
-        
+
     }
 
 }
