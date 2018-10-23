@@ -1,7 +1,5 @@
 package Lessons_4x.Lesson_43_no_inner_for_Stepan;
 
-import Lessons_4x.Lesson_42_.Animal;
-
 import java.util.ArrayList;
 
 public class Test {
