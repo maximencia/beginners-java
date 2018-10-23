@@ -1,7 +1,6 @@
 package Lessons_4x.Lesson_45_serialize;
 
-import Lessons_2x.Lesson_26_Interfaces.Interfaces.Person;
-import com.sun.org.apache.bcel.internal.classfile.ClassFormatException;
+
 
 import java.io.FileInputStream;
 import java.io.IOException;
