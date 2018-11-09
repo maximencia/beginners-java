@@ -27,19 +27,23 @@ public class test {
 
 
     }
+    // запись в конец листа
     private static void measureTime_1(List<Integer> list) {
         long start  = System.currentTimeMillis();
 
 
-        for (int i =0 ; i<1000000; i++)
+        for (int i =0 ; i<1000000000; i++)
         {list.add(i);}
         long end =  System.currentTimeMillis();
         System.out.println(end - start);
 
-    }private static void measureTime_2(List<Integer> list) {
+    }
+    // чтение элементов
+    private static void measureTime_2(List<Integer> list) {
 
         for (int i =0 ; i<100000; i++)
         {list.add(i);}
+
         long start  = System.currentTimeMillis();
 
         for (int i =0 ; i<100000; i++)
@@ -50,9 +54,10 @@ public class test {
         System.out.println(end - start);
 
     }
-
+    // запись в начало листа
     private static void measureTime_3(List<Integer> list) {
         long start  = System.currentTimeMillis();
+
         for (int i =0 ; i<100000; i++)
         {list.add(0,i);}
 
@@ -60,3 +65,31 @@ public class test {
         System.out.println(end - start);
     }
 }
+
+
+//
+//    при measureTime_1  = 1000000000
+//    Exception in thread "main" java.lang.OutOfMemoryError: GC overhead limit exceeded
+//        at java.lang.Integer.valueOf(Integer.java:832)
+//        at Lessons_5x.Lesson_54_ArrayList_3.test.measureTime_1(test.java:36)
+//        at Lessons_5x.Lesson_54_ArrayList_3.test.main(test.java:17)
+//
+
+//        measureTime_1 10000000
+//    l    12360
+//    a    8298
+
+//        measureTime_1 100000
+//    l    10
+//    a    7
+//        measureTime_2
+//    l    17787
+//    a    3
+//        measureTime_3
+//    l    13
+//    a    5019
+//
+//   the End.
+
+//запись в конец и считытывание - arraylist
+//добавление в начало лиса или удаление элементов - linkedlist
