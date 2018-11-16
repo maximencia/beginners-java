@@ -57,7 +57,7 @@ class Main {
             sum =sum + i;
             }
             scan.close();
-        String strDouble = String.format("%.6f", sum);
+        String strDouble = String.format("%.6f", sum).replace(',', '.'); //:)
 
 
         customStream.print(strDouble);
